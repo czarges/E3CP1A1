@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive</title>
+	<style>
+		body {
+			margin: 0px;
+			padding:0px;
+		}
+		.row {
+			clear: both;
+
+		}
+		.azul {
+			background-color: #369;
+			height: 200px;
+		}
+		h1 {
+			text-align: center;
+			margin: 0px;
+			padding: 0px;
+			color: #fff;
+		}
+		.cell {
+			width: 33%;
+			float: left;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+		img {
+			max-width: 100%;
+		}
+		ul {
+			list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+		}
+		
+		 @media (max-width: 480px) {
+ 		.cell {
+			width: 100%;
+			float: left;
+			padding: :20px;
+		}
+ 	}
+ }
+	</style>
+</head>
+<body>
+	<div class="row azul">
+		<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+	</div>
+	<ul class="row">
+		<li class="cell">
+			<img src="bg22.jpeg" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatibus harum molestias, magni dolor veniam nostrum, eligendi dolorum, necessitatibus ducimus doloribus eaque voluptatem consectetur libero laborum quam dolores sapiente? Aut.</p>
+		</li>
+		<li class="cell">
+			<img src="bg22.jpeg" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatibus harum molestias, magni dolor veniam nostrum, eligendi dolorum, necessitatibus ducimus doloribus eaque voluptatem consectetur libero laborum quam dolores sapiente? Aut.</p>
+		</li>
+		<li class="cell">
+			<img src="bg22.jpeg" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatibus harum molestias, magni dolor veniam nostrum, eligendi dolorum, necessitatibus ducimus doloribus eaque voluptatem consectetur libero laborum quam dolores sapiente? Aut.</p>
+		</li>
+	</ul>
+</body>
+</html>
